@@ -1,0 +1,107 @@
+/* Design for nav in all as login */
+.nav-clr{
+    background-color: #0048edfa;
+}
+.div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.child1 {
+    position: relative;
+    left: 4%;
+}
+.child2 {
+    position: relative;
+    top: 41px;
+    right: 5%;
+}
+.reg{
+    padding: 7px 13px;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: cadetblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.a-reg{
+    margin-right: 0; 
+}
+.reg:hover{
+    box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);
+    background-color:grey;
+    color:aqua ;
+}
+
+
+/* captcha css */
+
+.captcha-div{
+    display: flex;
+}
+.e-captcha{
+    width: 56%;
+}
+.i-captcha{
+    width: 38%;
+}
+.c-code{
+    width: 98%;
+    height: 34px;
+    border: 0.5px solid #afa3a3;
+    border-radius: 5px;
+    box-shadow: rgb(200, 208, 231) 3.2px 3.2px 8px 0px inset, rgb(255, 255, 255) -3.2px -3.2px 8px 0px inset;
+}
+.c-lable{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.i-rnd{
+    width: 100%;
+    border: 0.5px solid #afa3a3;
+    box-shadow: rgb(200, 208, 231) 3.2px 3.2px 8px 0px inset, rgb(255, 255, 255) -3.2px -3.2px 8px 0px inset;
+    border-radius: 5px;
+    padding: 3px;
+}
+.captcha-div{
+    width:100%
+}
+.reboot{
+    padding-right: 5px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+}
+.hint-captcha{
+    position: relative;
+    bottom: 19px;
+    white-space: nowrap;
+    background: gray;
+    padding: 2px 4px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.preview:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: crimson;
+}
+.list-style-g{
+    border:2px solid green;
+}
+.list-style-r{
+    border:2px solid crimson;
+}
+.ok-g{
+    background-color: green;
+}
+.unok-r{
+    background-color:crimson ;
+}
+.status{
+    border-radius: 50%;
+}
